@@ -1,0 +1,14 @@
+{% extends 'shared/layout.html' %}
+
+{% block conteudo %}
+
+
+<h1>Listagem das Ideias</h1>
+<ul>
+{% for ideia in ideia %}
+
+        <!-- {{ideia.pessoa}}  -->
+{% endfor %}
+</ul>
+
+{% endblock %}
